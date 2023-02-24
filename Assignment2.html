@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>form1</title>
+</head>
+<style>
+    form {
+    
+        border: 3px groove rgb(187, 193, 197);
+        text-align: center;
+        background-color: rgb(230, 213, 199);
+        /* background-image:url("government-jobs.jpg") ; */
+
+    }
+
+    h1 {
+        text-align: center;
+        /* border: 10px groove rgb(1, 1, 15); */
+        padding: 10px;
+    }
+
+    legend {
+        border: 4px groove rgb(211, 211, 226);
+        /* background-color: aqua; */
+    }
+
+    fieldset {
+        border: 2px groove rgb(4, 4, 13);
+        /* padding: 200px: */
+    }
+
+    #fieldset2{
+        border: 2px solid grey;
+    }
+
+    #fieldset3{
+        border: 2px solid grey;
+    }
+
+</style>
+
+<body>
+
+    <form id="form" img>
+        <h1>Government Job Recruitment Form for NDA</h1>
+
+        <fieldset id="fieldset1">
+            <legend>Personal Information</legend>
+            <br>
+
+            <label for="First Name">First Name:</label>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+
+            <lable for="Last Name:">Last Name:</label>
+                <input type="text" id="name" placeholder="Enter your last name">
+                <br><br>
+
+                <label for="Roll No.">Roll No.:</label>
+                <input type="text" id="name" placeholder="Enter your roll no.">
+                <br>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <br><br>
+
+                <label for="address">Address: </label>
+                <input type="text" id="text3"><br><br>
+
+                <label for="dateofbirth">DOB: </label>
+                <input type="date" id="date1"><br><br>
+
+                <lable for="Gender">Select Gender:</lable>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="femla">Female</option>
+                    <option value="other">other</option>
+                </select>
+
+                <!-- </forms> -->
+        <!-- </fieldset> -->
+        <br><br>
+
+
+        <fieldset id="fieldset2">
+            <legend>Parents Information</legend>
+            <label for="name2">Father's Name: </label>
+            <input type="text" id="text4"><br><br>
+
+            <label for="occupation">Father's occupation: </label>
+            <input type="text" id="text5"><br><br>
+
+            <label for="name3">Mother's Name: </label>
+            <input type="text" id="text6"><br><br>
+
+            <label for="occupation2">Mother's occupation: </label>
+            <input type="text" id="text5"><br><br>
+
+        </fieldset>
+        <br>
+        
+
+        <fieldset id="fieldset3">
+            <br>
+
+            <label for="State"> State: </label>
+            <select name="city">
+                <option value="choose" aria-placeholder="Choose your city">Choose your city</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Himachal Pradesh">HP</option>
+                <option value="Uttrakhand">UK</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="Location"> Preferred Location : </label>
+            <input type="text" list="Regions" placeholder="Enter Location" name="Location" required>
+            <datalist id="Regions">
+                <option value="Chandigarh">
+                <option value="Mohali">
+                <option value="Shimla">
+                <option value="Ludhiyana">
+                <option value="Amritsar">
+                <option value="Baddi">
+                <option value="Jalandhar">
+                <option value="Hoshiyarpur">
+                <option value="Delhi">
+                <option value="Gurgaon">
+                <option value="Pune">
+                <option value="Banglore">
+                <option value="West Bengal">
+                <option value="Guwahati">
+                <option value="Chennai">
+                <option value="Kerala">
+
+            </datalist>
+            <br>
+            <br>
+            <lable for="Salary Expectation">Salary Expectation: </lable>
+
+            <select>
+                <option value="30000">30000</option>
+                <option value=">30000">30000 - 50000</option>
+                <option value="30000">50000-10000</option>
+                <option value="Above 40000">More Than 10000</option>
+            </select>
+            <br>
+            <br>
+
+            <lable for="Upload CV">Choose File</lable>
+            <input type="file" id="Choose File" name="Choose File">
+            <br>
+            <br>
+
+            <!-- <label for="Feedback" id="feedback">Feedback</label>
+            <br> -->
+            <!-- <textarea name="" id="Type" placeholder="Give your feedback" rows="5"></textarea>
+            <br> -->
+
+            <button type="cancel" style="background-color:rgb(214, 92, 92)">Cancel</button>
+
+            <button type="submit" style="background-color: rgb(67, 165, 67);">Submit</button>
+        </fieldset>
+
+    </fieldset>
+
+    </form>
+
+
+</body>
+
+</html>
